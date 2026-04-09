@@ -2,13 +2,13 @@
 .image,.videos{
   width:500px;
   height:300px; 
-  border-color: red;
+  border-color: deeppink;
   border-style: solid;
   border-radius: 30px;
-  box-shadow: yellow 0px 0px 30px 15px;
+  box-shadow:deeppink 0px 0px 10px 10px;
 }
  .content{
-    background-color: blue;
+    background-color: pink;
     padding: 30px;
     display: flex;
     align-items:center ;
@@ -16,13 +16,22 @@
     height: 55vh;
 }
 .data{
-    background-color: blue;
+    background-color: pink;
     padding: 50px;
     display: flex;
     align-items:center ;
     justify-content: center;
     height: 75vh;
     width: 92%;
+    border-color: deeppink;
+    border-style: solid;
+    border-radius: 30px;
+    width: 10000px;
+
+
+}
+iframe{
+ 
 }
 .Navbar{
   background-color: deeppink;

@@ -8,11 +8,11 @@ function App(){
 return(
  <>
     <Navbar/>
- {/* <Dataset/> */}
+ <Dataset/>
  <Dashboard />
- {/* <Report /> */}
- {/* <Exploration/> */}
- {/* <Story/> */}
+ <Report />
+ <Exploration/>
+ <Story/>
 
  </>
 )
