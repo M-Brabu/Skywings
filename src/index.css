@@ -26,12 +26,12 @@
     border-color: deeppink;
     border-style: solid;
     border-radius: 30px;
-    width: 10000px;
-
-
 }
 iframe{
- 
+    border-color: deeppink;
+    border-style: solid;
+    border-radius: 30px;
+    width: 10000px;
 }
 .Navbar{
   background-color: deeppink;
