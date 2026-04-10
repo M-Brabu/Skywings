@@ -14,6 +14,7 @@
     align-items:center ;
     justify-content: center;
     height: 55vh;
+    width:100%;
 }
 .data{
     background-color: pink;
@@ -22,22 +23,14 @@
     align-items:center ;
     justify-content: center;
     height: 75vh;
-    width: 92%;
-    border-color: deeppink;
-    border-style: solid;
-    border-radius: 30px;
-}
-iframe{
-    border-color: deeppink;
-    border-style: solid;
-    border-radius: 30px;
-    width: 10000px;
+    width: 95%;
 }
 .Navbar{
   background-color: deeppink;
   border-radius: 8px;
   color:white;
-  padding:3px;
+  padding:5px;
   padding-left:30px;
   margin:1px;
+  width:100%; 
 }

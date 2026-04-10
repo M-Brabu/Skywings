@@ -1,3 +1,4 @@
+import Navbar from './Navbar'
 import ImageAttacher from "./ImageAttacher"
 import s1 from './assets/story/s1.png'
 import s2 from './assets/story/s2.png'
@@ -8,6 +9,7 @@ import s6 from './assets/story/s6.png'
 function Story(){
 return(
     <div>
+        <Navbar/>
         <ImageAttacher image={s1} />
         <ImageAttacher image={s2} />
         <ImageAttacher image={s3} />
