@@ -34,3 +34,15 @@
   margin:1px;
   width:100%; 
 }
+
+#powered{
+  background-color: deeppink;
+  color: white;
+  border-style: solid;
+  border-radius: 7px;
+  padding: 50px;
+
+}
+#airplanelogo{
+  width: 45px;
+}
