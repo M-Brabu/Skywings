@@ -1,4 +1,6 @@
-
+*{
+  background-color:pink;
+}
 .image,.videos{
   width:500px;
   height:300px; 
@@ -26,7 +28,7 @@
     width: 95%;
 }
 .Navbar{
-  background-color: deeppink;
+  background-color: deeppink ;
   border-radius: 8px;
   color:white;
   padding:5px;
