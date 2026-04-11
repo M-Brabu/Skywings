@@ -6,6 +6,7 @@ function Dashboard(){
     return(
         <>
           <Navbar/>
+          <div className="text">
           <h3>The Executive Dashboard: Management Command Center</h3>
   <p>What it is:</p>
   <p>It’s a single screen where a manager can see exactly how the business is doing without having to look through hundreds of individual bookings. It’s built to be interactive, visually clean, and fast.</p>
@@ -21,8 +22,9 @@ function Dashboard(){
   <p>The Key Feature: The Interactive City Filter</p>
   <p>How it works: If you select a city like Bengaluru, the entire dashboard—every single chart and number—changes instantly to show only the data for that branch.</p>
   <p>Why it’s useful: It allows the agency to act locally. A manager in one city can see their specific trends while the CEO can look at the whole country, all using the same tool.</p>  
-       
+       </div>
           <Cognos/>
+
         </>
     )
 }

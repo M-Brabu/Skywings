@@ -27,8 +27,9 @@ function Report(){
   <p>What it shows:</p>
   <p>Not everyone likes bar charts; some prefer pie charts or lines. I built this so the user can toggle between different visual styles to see monthly revenue and average booking values in the way that makes the most sense to them.</p>
     <VideoAttacher video={r3vid}/>
+     </div>
     <Cognos/>
-    </div>
+   
  </>)
 }
 export default Report

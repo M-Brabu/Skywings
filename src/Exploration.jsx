@@ -8,6 +8,7 @@ import Cognos from './Cognos'
 function Exploration(){
     return(<>
     <Navbar/>
+    <div className="text">
         <h3>Data Exploration: The Consumer Detective</h3>
 <h3>Exploration 1: Revenue by Age and Season</h3>
 <p><strong>What it does:</strong></p>
@@ -31,6 +32,7 @@ function Exploration(){
 <p>While younger age groups show high fluctuation, the 60+ group remains the "Seasonal Backbone" of the business. This finding suggests that the agency should focus its off-season marketing efforts on senior travelers to maintain steady revenue year-round.</p>
 
 <ImageAttacher image={e3}/>
+</div>
         <Cognos/>
     </>)
 }

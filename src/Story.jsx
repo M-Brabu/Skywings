@@ -11,7 +11,7 @@ function Story(){
 return(
     <div>
         <Navbar/>
-
+ <div className="text">
 <ImageAttacher image={s1} />
     
 <h3>Scene 1: Company Overview & Total Bookings</h3>
@@ -38,6 +38,7 @@ return(
          <p>What it does:</p>
          <p>This is the "action plan" of the story. Using the insights from the previous scenes, it outlines specific data-driven steps—like targeted promotions or new packages—to help SkyWings stay profitable during the slower months of the year.</p>
 <ImageAttacher image={s6} />
+     </div>
           <Cognos/>
     </div>
 )

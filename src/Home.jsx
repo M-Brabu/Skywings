@@ -5,6 +5,7 @@ import planegif from './assets/Logos/planegif.gif'
 function Home(){
     return (<>
     <Navbar/>
+    <div className="text">
      <h3>Project Executive Summary</h3>
 <p>
   This project showcases a complete business intelligence solution for SkyWings Travel Agency. 
@@ -52,8 +53,10 @@ function Home(){
     company performance to specific data-backed recommendations for future growth.
   </li>
 </ul>
+ </div>
      
       <Cognos/>
+     
     </>)
 }
 export default Home
