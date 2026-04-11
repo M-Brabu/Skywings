@@ -8,6 +8,7 @@ import Cognos from './Cognos'
 function Report(){
  return(<>
     <Navbar/>
+    <div className="text">
   <h3>Report 1: Revenue Breakdown</h3>
 <p>What it does:</p>
 <p>This is a clean, organized table that categorizes every booking into specific service types.</p>
@@ -27,6 +28,7 @@ function Report(){
   <p>Not everyone likes bar charts; some prefer pie charts or lines. I built this so the user can toggle between different visual styles to see monthly revenue and average booking values in the way that makes the most sense to them.</p>
     <VideoAttacher video={r3vid}/>
     <Cognos/>
+    </div>
  </>)
 }
 export default Report
