@@ -4,6 +4,7 @@ import Story from './Story'
 import Exploration from './Exploration'
 import Dashboard from './Dashboard'
 import Dataset from './Dataset'
+import Notfound from './Notfound'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 function App(){
     const router=createBrowserRouter(
@@ -12,7 +13,8 @@ function App(){
  {element:<Dashboard />,path:"/Dashboard"},
  {element:<Report />,path:"/Report"},
  {element:<Exploration/>,path:"/Exploration"},
- {element:<Story/>,path:"/Story"}
+ {element:<Story/>,path:"/Story"},
+ {element:<Notfound/>,path:"*"}
  ])
 return(
  <>
