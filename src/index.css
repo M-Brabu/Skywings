@@ -1,5 +1,6 @@
 *{
   background-color:pink;
+  color:navy;
 }
 .image,.videos{
   width:500px;
@@ -28,7 +29,7 @@
     width: 95%;
 }
 .Navbar{
-  background-color: deeppink ;
+  background-color: deeppink !important ;
   border-radius: 8px;
   color:white;
   padding:5px;
@@ -47,4 +48,45 @@
 }
 #airplanelogo{
   width: 45px;
+  background-color: deeppink;
+}
+.Dbbutton{
+  background-color:darkviolet;
+  color: white;
+}
+.Dbbutton:hover{
+   background-color:rgb(176, 0, 252);
+   color: white;
+}
+.m-2{
+  background-color: deeppink !important;
+}
+.btn-group{
+  background-color: deeppink;
+}
+#homecognosimg{
+  width: 400px;
+  border-style: solid ;
+  border-color: deeppink;
+  border-radius: 30px;
+  box-shadow: deeppink 0px 0px 15px 6px;
+}
+#homecognosimgdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px ;
+}
+#gif{
+  width: 350px;
+  border-style:solid;
+  border-radius: 30px;
+  border-color:darkblue;
+  box-shadow: blue 0px 0px 10px 7px;
+}
+#gifdiv{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+
 }
