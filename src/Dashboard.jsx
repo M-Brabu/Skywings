@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import VideoAttacher from "./videoAttacher"
+import VideoAttacher from "./VideoAttacher"
 import dabovid from "./assets/dabo/dabovid.mp4"
 import Cognos from './Cognos'
 function Dashboard(){
