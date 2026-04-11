@@ -4,7 +4,6 @@ function Navbar(){
     return(
        <>
        <div className="Navbar">
-       
         <h1 className='m-2'> <img src={airplane} id="airplanelogo" className='mx-2 '/> Skywings Data Analysis</h1>
         <div className='btn-group p-3'>
         <Link to="/" className='btn btn-primary '>Home</Link>    
