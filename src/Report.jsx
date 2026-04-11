@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 import ImageAttacher from "./ImageAttacher"
-import VideoAttacher from "./videoAttacher"
+import VideoAttacher from "./VideoAttacher"
 import r1vid from './assets/R/R1/r1vid.mp4'
 import r2 from './assets/R/R2/r2.png'
 import r3vid from './assets/R/R3/r3vid.mp4'
