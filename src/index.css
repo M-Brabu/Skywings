@@ -1,20 +1,16 @@
 *{
-  color:navy;
+  color:blue;
 }
 .image,.videos{
   width:80%;
   margin: 5%;
+  border-radius: 10px;
+  border-style: solid;
 }
 
  .content{
    display: flex;
    justify-content: center;
-
-}
-@media(max-width:600px){
-  .content{
-       
-  }
 }
 .data{
     padding: 50px;
@@ -25,12 +21,13 @@
     width: 95%;
 }
 .Navbar{
-  background-color:hotpink;
+  background-color:deeppink;
   border-radius: 8px;
   color:white;
   padding:5px;
   padding-left:4%;
   margin:1px;
+
 }
 .btngroup{
   display: flex;
@@ -44,11 +41,12 @@
   }
 }
 #powered{
-  background-color:hotpink;
+  background-color:deeppink;
   color: white;
   border-style: solid;
   border-radius: 7px;
-  padding: 50px;
+  padding: 10px;
+  font-size: large;
 }
 #airplanelogo{
   width: 45px;
@@ -64,9 +62,9 @@
 #homecognosimg{
   width: 400px;
   border-style: solid ;
-  border-color: deeppink;
+  border-color:hotpink;
   border-radius: 30px;
-  box-shadow: deeppink 0px 0px 15px 6px;
+  box-shadow: hotpink 0px 0px 15px 6px;
 }
 #homecognosimgdiv{
   display: flex;
@@ -75,11 +73,11 @@
   padding:15px ;
 }
 #gif{
-  width: 350px;
+  width: 200px;
   border-style:solid;
   border-radius: 30px;
-  border-color:darkblue;
-  box-shadow: blue 0px 0px 10px 7px;
+  border-color:hotpink;
+  box-shadow: hotpink 0px 0px 10px 7px;
 }
 #gifdiv{
   display: flex;
@@ -92,4 +90,8 @@
 }
 .skywing{
   color: blue;
+}
+.story{
+  display: flex;
+  justify-content: center;
 }

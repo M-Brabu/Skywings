@@ -11,6 +11,7 @@ function Story(){
 return(
     <div>
         <Navbar/>
+    <h1 className='story'>Presentation Story</h1>
  <div className="text">
 <ImageAttacher image={s1} />
     
