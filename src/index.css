@@ -63,7 +63,8 @@
   width: 400px;
   border-style: solid ;
   border-color:hotpink;
-  border-radius: 30px;
+  border-radius: 10px;
+  padding: 20px;
   box-shadow: hotpink 0px 0px 15px 6px;
 }
 #homecognosimgdiv{
@@ -73,7 +74,7 @@
   padding:15px ;
 }
 #gif{
-  width: 200px;
+  width: 250px;
   border-style:solid;
   border-radius: 30px;
   border-color:hotpink;

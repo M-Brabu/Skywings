@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 import Cognos from './Cognos'
-import ibmcognos from './assets/Logos/ibmcognos.jpg'
+import ibmcognos from './assets/Logos/ibmcognos.webp'
 import planegif from './assets/Logos/planegif.gif'
 function Home(){
     return (<>
